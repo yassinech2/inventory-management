@@ -23,6 +23,18 @@ Use the Task tool with these specialized subagents for appropriate tasks:
 - **ALWAYS use Playwright MCP tools** (`mcp__playwright__*`) for browser testing
   - Test against: `http://localhost:3000` (frontend), `http://localhost:8001` (API)
 
+## Git Workflow
+
+- **NEVER push directly to `main`.** Always open a pull request.
+- When the user asks to push, commit, or ship changes:
+  1. Create a new branch (`git checkout -b <descriptive-branch-name>`)
+  2. Commit the changes to that branch
+  3. Push the branch to origin (`git push -u origin <branch>`)
+  4. Open a PR against `main` using `gh pr create` (or `mcp__github__*`)
+  5. Return the PR URL to the user
+- Never use `git push --force` or `git push -f` to `main`.
+- If the user explicitly asks for a direct push to `main`, confirm before proceeding.
+
 ## Stack
 - **Frontend**: Vue 3 + Composition API + Vite (port 3000)
 - **Backend**: Python FastAPI (port 8001)
