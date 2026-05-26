@@ -106,8 +106,9 @@ export default {
   border-bottom: 1px solid #e2e8f0;
   padding: 0.75rem 0;
   position: sticky;
-  top: 70px;
-  z-index: 90;
+  /* top aligns below the sticky AppHeader which is var(--header-height) tall */
+  top: var(--header-height);
+  z-index: 9;
 }
 
 .filters-container {

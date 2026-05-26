@@ -1,0 +1,69 @@
+:root {
+  /* Surface */
+  --color-bg: #f8fafc;
+  --color-surface: #ffffff;
+  --color-border: #e2e8f0;
+  --color-border-strong: #cbd5e1;
+
+  /* Sidebar (deep slate) */
+  --color-sidebar: #0f172a;
+  --color-sidebar-fg: #cbd5e1;
+  --color-sidebar-fg-active: #ffffff;
+  --color-sidebar-hover: #1e293b;
+  --color-sidebar-active: #1e293b;
+  --color-sidebar-border: #1e293b;
+
+  /* Text */
+  --color-text: #0f172a;
+  --color-text-muted: #64748b;
+  --color-text-subtle: #94a3b8;
+
+  /* Brand & status */
+  --color-brand: #2563eb;
+  --color-brand-hover: #1d4ed8;
+  --color-brand-soft: #eff6ff;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+
+  /* Spacing — 4px scale */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+
+  /* Layout */
+  --sidebar-width: 248px;
+  --header-height: 64px;
+  --content-max-width: 1600px;
+
+  /* Radius / shadow */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.04);
+  --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-base: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --line-height-tight: 1.25;
+  --line-height-base: 1.5;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+
+  /* Motion */
+  --motion-fast: 120ms ease-out;
+  --motion-base: 180ms ease-out;
+}
